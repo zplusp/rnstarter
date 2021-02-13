@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <>
-      <StatusBar barStyle="dark-content" backgroundColor={EStyleSheet.value('$primary')} />
+      <StatusBar barStyle="light-content" backgroundColor={EStyleSheet.value('$primary')} />
       <Navigator />
     </>
   );
@@ -28,7 +28,7 @@ const App = () => {
 const theme = {
   $primary: '#19456B',
   $accent: '#16c79a',
-  $text: '#212121'
-}
+  $text: '#212121',
+};
 
 export default App;

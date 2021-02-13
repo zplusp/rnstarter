@@ -173,8 +173,8 @@ const styles = EStyleSheet.create({
         marginRight: 16,
     },
     itemImage: {
-        height: 70,
-        width: 190,
+        height: 55,
+        width: 158,
         borderTopRightRadius: 5,
         borderTopLeftRadius: 5,
     },
@@ -206,6 +206,7 @@ const styles = EStyleSheet.create({
     },
     locRate: {
         flexDirection: 'row',
+        marginTop: 4,
     },
     ratingsEnd: {
         flex: 1,
@@ -213,7 +214,7 @@ const styles = EStyleSheet.create({
         alignItems: 'flex-end',
     },
     bookView: {
-        marginTop: 8,
+        marginTop: 12,
         flexDirection: 'column',
         alignItems: 'center',
     },

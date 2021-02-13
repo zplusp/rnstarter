@@ -79,7 +79,7 @@ const MapScene = (props: any) => {
 const styles = StyleSheet.create({
     container: {
       height: '100%',
-      width: 400,
+      width: '100%',
       justifyContent: 'flex-end',
       alignItems: 'center',
     },
